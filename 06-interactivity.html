@@ -1,0 +1,96 @@
+<!-- This is an example of how we can add interactivity to an A-Frame scene.
+    There are differenr paradigms for interactivity in the VR world. Here we
+    use (1) interactctions that trigger when an object is looked at, and 
+    (2) interactions that trigger when an object is being "clicked".
+ -->
+
+<head>
+     <!-- we load the even-set component to make it easier to react to cursor events -->
+    <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
+    <script>
+        // we make our own component that handles the mouse events of 
+        // whatever entity we attach it to
+        AFRAME.registerComponent('play-music-on-hover', {
+            // the init function gets called when the entity is created
+            // here we attach "listeners" for mouseenter and mouseleave events
+            init: function() {
+                let audio = document.querySelector("#music");
+                let audioPlaying = false;
+                let el = this.el;   // Reference to the component's entity
+                let defaultColor = el.getAttribute('color');
+                
+                // what happens when the mouse enters the entity?
+                el.addEventListener('mouseenter', function() {
+                    el.setAttribute('color', '#82365C');
+                    if (!audioPlaying) {
+                        audio.play();
+                        audioPlaying = true;
+                    }
+                });
+    
+                // what happens when the mouse leaves the entity?
+                el.addEventListener('mouseleave', function() {
+                    el.setAttribute('color', defaultColor);
+                    if (audiPlaying) {
+                        audio.pause();
+                        audioPlaying = false;
+                    }
+                });
+            }
+        })
+    </script>
+</head>
+
+<body>
+    <!-- We can add a mouse-cursor to the scene, so that we can register mouse 
+        click events -->
+    <a-scene cursor="rayOrigin: mouse">
+        <a-assets>
+            <audio id="music" src="assets/music.mp3" preload="true"></audio>
+            <audio id="meow" src="assets/meow.mp3" preload="true"></audio>
+        </a-assets>
+        
+        <a-entity sound="src: #music; autoplay: false; loop: false"></a-entity>
+        
+        <!-- one way to add interactivity is to add a cursor to the camera.
+        The cursor uses "raycasting" to trigger a click event when the camera looks
+        at an object long enough (how long is determined by the fuse parameters). 
+        We add the cursor to the active camera. A default camera was implicitely 
+        added by aframe in the previous examples. Now we make it explicit, so that
+        we can modify it (e.g., add a cursor) -->
+        <a-camera>
+            <a-cursor fuse=true></a-cursor>
+        </a-camera>
+
+        <!-- change color and play sound when looking -->
+        <a-entity position="-3 0 -4" rotation="0 45 0">
+            <a-text id="cylinderText" value="Look" align="center" 
+                color="#111" visible="true" position="0 1.5 0"></a-text>
+            <a-box color="#24c2d4"
+                event-set__enter="_event: mouseenter; color: #17535e"
+                event-set__leave="_event: mouseleave; color: #4CC3D9"
+                sound="src: #meow; autoplay: false; on: mouseenter"
+                animation="property: rotation; from: 0 0 0; to: 0 90 0; startEvents: mouseenter; dur: 500; easing:easeInElastic; loop: 2;"></a-box>
+        </a-entity>
+
+        <!-- change color on click (after fuse when looking, or on mouseclick) -->
+        <a-entity position="0 0 -5" rotation="0 0 0">
+            <a-text id="cylinderText" value="Click" align="center" 
+                color="#111" visible="true" position="0 1.5 0"></a-text>
+            <a-box color="orange"
+                event-set__click="_event: click; color: #17535e"
+                event-set__leave="_event: mouseleave; color: orange"></a-box>
+        </a-entity>
+
+        <!-- call any javascript code you want by using a component -->
+        <a-entity position="3 0 -4" rotation="0 -45 0">
+            <a-text id="cylinderText" value="JavaScript" align="center" 
+                color="#111" visible="true" position="0 1.5 0"></a-text>
+            <a-box color="hotpink" play-music-on-hover></a-box>
+        </a-entity>
+
+    </a-scene>
+</body>
+
+

@@ -1,0 +1,32 @@
+<!-- These are some examples of using animation in A-Frame. We load the animation 
+timeline component for more complex animations -->
+
+<head>
+    <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.0.1/dist/aframe-extras.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+
+        <!-- layering two simple animations. It's important to use *two* underscores
+        when naming the animation layers -->
+        <a-box 
+            color="#333333"
+            position="-2 1 -4"
+            animation="property: rotation; to: 0 360 0; dur: 10000; loop: true;"
+            animation__color="property: color; to: #24c2d4; dir: alternate; dur: 500; easing: easeInSine; loop: true;">
+        </a-box>
+
+        <!-- use entities to change axis of animation and animate objects together -->
+        <a-entity position="2 1 -4"  scale=".5 .5 .5"
+        animation="property: rotation; to: 0 0 360; dur: 7000; loop: true; easing: linear"
+        animation__scale="property: scale; to: 0.1 0.1 0.1; dur: 1000; dir: alternate; loop: true; easing: 	easeInElastic">
+            <a-box color="#333333" position="-1.5 0 0"></a-box>
+            <a-box color="#333333" position="1.5 0 0"></a-box>
+            <a-box color="tomato" position="0 0 0" height=4></a-box>
+        </a-entity>
+
+       </a-scene>
+</body>
+
