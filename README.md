@@ -82,7 +82,7 @@ _These are the instructor notes for the workshop. They also contain useful links
 - What are A-frame primitives?
 - make and modify primitives
   - example: box, sphere, plane, ...
-  - see [documentation](https://aframe.io/docs/0.9.0/introduction/html-and-primitives.html) for all primitives
+  - see [documentation](https://aframe.io/docs/1.0.0/introduction/html-and-primitives.html) for all primitives
   - change position, rotation, scale with `position="x y z"` `rotation="x y z"` `scale="x y z"`
   - understanding the A-Frame xzy coordinate system
 - special primitive `<a-sky>` (note: sky is normally used with a picture. For single color background, and better performance, use `<a-scene background="color:...">`)
@@ -106,10 +106,10 @@ _These are the instructor notes for the workshop. They also contain useful links
 ##### Help
 
 - `01-primitives.html`
-- [docs for primitives](https://aframe.io/docs/0.9.0/introduction/html-and-primitives.html)
-- [docs for geometry component](https://aframe.io/docs/0.9.0/components/geometry.html)
-- [docs for entity-component system](https://aframe.io/docs/0.9.0/introduction/entity-component-system.html)
-- [docs for visual inspector](https://aframe.io/docs/0.9.0/introduction/visual-inspector-and-dev-tools.html)
+- [docs for primitives](https://aframe.io/docs/1.0.0/introduction/html-and-primitives.html)
+- [docs for geometry component](https://aframe.io/docs/1.0.0/components/geometry.html)
+- [docs for entity-component system](https://aframe.io/docs/1.0.0/introduction/entity-component-system.html)
+- [docs for visual inspector](https://aframe.io/docs/1.0.0/introduction/visual-inspector-and-dev-tools.html)
 
 -------------------------------------------------------------------------------
 
@@ -143,9 +143,9 @@ _These are the instructor notes for the workshop. They also contain useful links
 ##### Help
 
 - `02-assets.html`
-- [Asset management system docs](<https://aframe.io/docs/0.9.0/core/asset-management-system.html>)
-- [docs for obj-model component](<https://aframe.io/docs/0.9.0/primitives/a-obj-model.html>)
-- [docs for a-img primitive](<https://aframe.io/docs/0.9.0/primitives/a-image.html>)
+- [Asset management system docs](<https://aframe.io/docs/1.0.0/core/asset-management-system.html>)
+- [docs for obj-model component](<https://aframe.io/docs/1.0.0/primitives/a-obj-model.html>)
+- [docs for a-img primitive](<https://aframe.io/docs/1.0.0/primitives/a-image.html>)
 - [equirectangular panorama images with CC license on Flickr](https://www.flickr.com/search/?license=2%2C3%2C4%2C5%2C6%2C9&text=equirectangular)
 
 -------------------------------------------------------------------------------
@@ -164,7 +164,7 @@ _These are the instructor notes for the workshop. They also contain useful links
 **Help:**
 
 - `03-text.html`
-- [docs for text primitive](https://aframe.io/docs/0.9.0/components/text.html)
+- [docs for text primitive](https://aframe.io/docs/1.0.0/components/text.html)
 
 -------------------------------------------------------------------------------
 
@@ -181,8 +181,8 @@ _These are the instructor notes for the workshop. They also contain useful links
 ##### Help
 
 - `04-components.html`
-- [docs for entitiy component system](<https://aframe.io/docs/0.9.0/introduction/entity-component-system.html>)
-- [docs for component](https://aframe.io/docs/0.9.0/core/component.html)
+- [docs for entitiy component system](<https://aframe.io/docs/1.0.0/introduction/entity-component-system.html>)
+- [docs for component](https://aframe.io/docs/1.0.0/core/component.html)
 - [The A-Frame registry](<https://aframe.io/aframe-registry/)>)
 - [A-Frame Extras](<https://github.com/donmccurdy/aframe-extras>) has lost of useful components, e.g., for different types of interaction
 - [NPM](<https://www.npmjs.com/search?q=keywords:aframe-component>) -  a good place to find components
@@ -210,7 +210,7 @@ _These are the instructor notes for the workshop. They also contain useful links
 ##### Help
 
 - `05-animation.html`
-- [docs for animation](https://aframe.io/docs/0.9.0/components/animation.html)
+- [docs for animation](https://aframe.io/docs/1.0.0/components/animation.html)
 
 -------------------------------------------------------------------------------
 
@@ -239,12 +239,12 @@ _These are the instructor notes for the workshop. They also contain useful links
 ##### Help
 
 - `06-interactivity.html`
-- [docs for interaction](https://aframe.io/docs/0.9.0/introduction/interactions-and-controllers.html)
-- [docs for cursor component](https://aframe.io/docs/0.9.0/components/cursor.html)
-- [docs for sound primitive](https://aframe.io/docs/0.9.0/primitives/a-sound.html)
-- [docs for camera primitive](https://aframe.io/docs/0.9.0/primitives/a-camera.html)
-- [docs for writing your own component](https://aframe.io/docs/0.9.0/introduction/writing-a-component.html)
-- [docs for raycaster component](https://aframe.io/docs/0.9.0/components/raycaster.html)
+- [docs for interaction](https://aframe.io/docs/1.0.0/introduction/interactions-and-controllers.html)
+- [docs for cursor component](https://aframe.io/docs/1.0.0/components/cursor.html)
+- [docs for sound primitive](https://aframe.io/docs/1.0.0/primitives/a-sound.html)
+- [docs for camera primitive](https://aframe.io/docs/1.0.0/primitives/a-camera.html)
+- [docs for writing your own component](https://aframe.io/docs/1.0.0/introduction/writing-a-component.html)
+- [docs for raycaster component](https://aframe.io/docs/1.0.0/components/raycaster.html)
 
 -------------------------------------------------------------------------------
 
