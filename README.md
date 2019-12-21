@@ -89,7 +89,7 @@ _These are the instructor notes for the workshop. They also contain useful links
 - use `<a-entity>` as a container - put shapes in entity to rotate, move and scale them as a whole
 - explain entity-component system and show how an entity can become anything by rewriting a primitive as an entity.
 - Open developer console to show the HTML in the DOM
-- Open A-Frame inspector (Mac: <kbd>Ctrl</kbd> + <kbd>Option</kbd> + ,<kbd>i</kbd>; Windows: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + ,<kbd>i</kbd>) and use it to adjust objects interactively
+- Open A-Frame inspector (Mac: <kbd>Ctrl</kbd> + <kbd>Option</kbd> + ,<kbd>i</kbd>; Windows & Ubuntu: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + ,<kbd>i</kbd>) and use it to adjust objects interactively
 - copy modifies entity html to clipboard to modify code
 
 ##### Exercise
