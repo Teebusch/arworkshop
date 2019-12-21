@@ -121,7 +121,7 @@ _These are the instructor notes for the workshop. They also contain useful links
 - **Tip:** For the best 360 degree experience search for ["equirectangular" panorama images](https://www.flickr.com/search/?license=2%2C3%2C4%2C5%2C6%2C9&text=equirectangular).
 - add pre-created models as assets to the scene.
 - what are gltf models and where to find them?
-  - <httpls://poly.google.com>
+  - <https://poly.google.com>
   - <https://sketchfab.com>
   - <https://archive3d.net/>
   - <https://turbosquid.com>
