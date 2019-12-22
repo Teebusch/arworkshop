@@ -143,9 +143,9 @@ _These are the instructor notes for the workshop. They also contain useful links
 ##### Help
 
 - `02-assets.html`
-- [Asset management system docs](<https://aframe.io/docs/1.0.0/core/asset-management-system.html>)
-- [docs for obj-model component](<https://aframe.io/docs/1.0.0/primitives/a-obj-model.html>)
-- [docs for a-img primitive](<https://aframe.io/docs/1.0.0/primitives/a-image.html>)
+- [Asset management system docs](https://aframe.io/docs/1.0.0/core/asset-management-system.html)
+- [docs for obj-model component](https://aframe.io/docs/1.0.0/primitives/a-obj-model.html)
+- [docs for a-img primitive](https://aframe.io/docs/1.0.0/primitives/a-image.html)
 - [equirectangular panorama images with CC license on Flickr](https://www.flickr.com/search/?license=2%2C3%2C4%2C5%2C6%2C9&text=equirectangular)
 
 -------------------------------------------------------------------------------
@@ -170,7 +170,7 @@ _These are the instructor notes for the workshop. They also contain useful links
 
 ## 4 - Expand aframe with components
 
-- You can find many components written by others at the [A-Frame registry](https://aframe.io/aframe-registry/) or on [NPM](<https://www.npmjs.com/search?q=keywords:aframe-component>)
+- You can find many components written by others at the [A-Frame registry](https://aframe.io/aframe-registry/) or on [NPM](https://www.npmjs.com/search?q=keywords:aframe-component)
 - make the text camera-facing using the `look-at` component, use link from unpkg
 
 ##### Exercise 
@@ -181,13 +181,13 @@ _These are the instructor notes for the workshop. They also contain useful links
 ##### Help
 
 - `04-components.html`
-- [docs for entitiy component system](<https://aframe.io/docs/1.0.0/introduction/entity-component-system.html>)
+- [docs for entitiy component system](https://aframe.io/docs/1.0.0/introduction/entity-component-system.html)
 - [docs for component](https://aframe.io/docs/1.0.0/core/component.html)
-- [The A-Frame registry](<https://aframe.io/aframe-registry/)>)
-- [A-Frame Extras](<https://github.com/donmccurdy/aframe-extras>) has lost of useful components, e.g., for different types of interaction
-- [NPM](<https://www.npmjs.com/search?q=keywords:aframe-component>) -  a good place to find components
-- [the physics system component](<https://github.com/donmccurdy/aframe-physics-system>) [(examples)](https://glitch.com/~aframe-physics-examples)
-- [live demos for many components](<https://github.com/supermedium/superframe>)
+- [The A-Frame registry](https://aframe.io/aframe-registry/)
+- [A-Frame Extras](https://github.com/donmccurdy/aframe-extras) has lost of useful components, e.g., for different types of interaction
+- [NPM](https://www.npmjs.com/search?q=keywords:aframe-component) -  a good place to find components
+- [the physics system component](https://github.com/donmccurdy/aframe-physics-system) [(examples)](https://glitch.com/~aframe-physics-examples)
+- [live demos for many components](https://github.com/supermedium/superframe)
 
 -------------------------------------------------------------------------------
 
@@ -290,10 +290,10 @@ _These are the instructor notes for the workshop. They also contain useful links
 ##### Help
 
 - `07-ar.html`
-- [AR.js project page](<https://github.com/jeromeetienne/AR.js/>)
-- [using multiple markers](<https://aframe.io/blog/arjs/#how-to-handle-multiple-distinct-markers>)
-- [train and use custom markers](<https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html>) [(Instructions)](https://medium.com/arjs/how-to-create-your-own-marker-44becbec1105)
-- [using QR codes embedded in markers](<https://medium.com/arjs/ar-code-a-fast-path-to-augmented-reality-60e51be3cbdf>)
+- [AR.js project page](https://github.com/jeromeetienne/AR.js/)
+- [using multiple markers](https://aframe.io/blog/arjs/#how-to-handle-multiple-distinct-markers)
+- [train and use custom markers](https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html) [(Instructions)](https://medium.com/arjs/how-to-create-your-own-marker-44becbec1105)
+- [using QR codes embedded in markers](https://medium.com/arjs/ar-code-a-fast-path-to-augmented-reality-60e51be3cbdf)
 - [A good AR matrix marker generator](https://au.gmented.com/app/marker/marker.php)
 
 -------------------------------------------------------------------------------
