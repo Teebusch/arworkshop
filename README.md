@@ -82,14 +82,14 @@ _These are the instructor notes for the workshop. They also contain useful links
 - What are A-frame primitives?
 - make and modify primitives
   - example: box, sphere, plane, ...
-  - see [documentation](https://aframe.io/docs/0.9.0/introduction/html-and-primitives.html) for all primitives
+  - see [documentation](https://aframe.io/docs/1.0.0/introduction/html-and-primitives.html) for all primitives
   - change position, rotation, scale with `position="x y z"` `rotation="x y z"` `scale="x y z"`
   - understanding the A-Frame xzy coordinate system
 - special primitive `<a-sky>` (note: sky is normally used with a picture. For single color background, and better performance, use `<a-scene background="color:...">`)
 - use `<a-entity>` as a container - put shapes in entity to rotate, move and scale them as a whole
 - explain entity-component system and show how an entity can become anything by rewriting a primitive as an entity.
 - Open developer console to show the HTML in the DOM
-- Open A-Frame inspector (Mac: <kbd>Ctrl</kbd> + <kbd>Option</kbd> + ,<kbd>i</kbd>; Windows: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + ,<kbd>i</kbd>) and use it to adjust objects interactively
+- Open A-Frame inspector (Mac: <kbd>Ctrl</kbd> + <kbd>Option</kbd> + ,<kbd>i</kbd>; Windows & Ubuntu: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + ,<kbd>i</kbd>) and use it to adjust objects interactively
 - copy modifies entity html to clipboard to modify code
 
 ##### Exercise
@@ -106,10 +106,10 @@ _These are the instructor notes for the workshop. They also contain useful links
 ##### Help
 
 - `01-primitives.html`
-- [docs for primitives](https://aframe.io/docs/0.9.0/introduction/html-and-primitives.html)
-- [docs for geometry component](https://aframe.io/docs/0.9.0/components/geometry.html)
-- [docs for entity-component system](https://aframe.io/docs/0.9.0/introduction/entity-component-system.html)
-- [docs for visual inspector](https://aframe.io/docs/0.9.0/introduction/visual-inspector-and-dev-tools.html)
+- [docs for primitives](https://aframe.io/docs/1.0.0/introduction/html-and-primitives.html)
+- [docs for geometry component](https://aframe.io/docs/1.0.0/components/geometry.html)
+- [docs for entity-component system](https://aframe.io/docs/1.0.0/introduction/entity-component-system.html)
+- [docs for visual inspector](https://aframe.io/docs/1.0.0/introduction/visual-inspector-and-dev-tools.html)
 
 -------------------------------------------------------------------------------
 
@@ -121,7 +121,7 @@ _These are the instructor notes for the workshop. They also contain useful links
 - **Tip:** For the best 360 degree experience search for ["equirectangular" panorama images](https://www.flickr.com/search/?license=2%2C3%2C4%2C5%2C6%2C9&text=equirectangular).
 - add pre-created models as assets to the scene.
 - what are gltf models and where to find them?
-  - <httpls://poly.google.com>
+  - <https://poly.google.com>
   - <https://sketchfab.com>
   - <https://archive3d.net/>
   - <https://turbosquid.com>
@@ -143,9 +143,9 @@ _These are the instructor notes for the workshop. They also contain useful links
 ##### Help
 
 - `02-assets.html`
-- [Asset management system docs](<https://aframe.io/docs/0.9.0/core/asset-management-system.html>)
-- [docs for obj-model component](<https://aframe.io/docs/0.9.0/primitives/a-obj-model.html>)
-- [docs for a-img primitive](<https://aframe.io/docs/0.9.0/primitives/a-image.html>)
+- [Asset management system docs](https://aframe.io/docs/1.0.0/core/asset-management-system.html)
+- [docs for obj-model component](https://aframe.io/docs/1.0.0/primitives/a-obj-model.html)
+- [docs for a-img primitive](https://aframe.io/docs/1.0.0/primitives/a-image.html)
 - [equirectangular panorama images with CC license on Flickr](https://www.flickr.com/search/?license=2%2C3%2C4%2C5%2C6%2C9&text=equirectangular)
 
 -------------------------------------------------------------------------------
@@ -164,13 +164,13 @@ _These are the instructor notes for the workshop. They also contain useful links
 **Help:**
 
 - `03-text.html`
-- [docs for text primitive](https://aframe.io/docs/0.9.0/components/text.html)
+- [docs for text primitive](https://aframe.io/docs/1.0.0/components/text.html)
 
 -------------------------------------------------------------------------------
 
 ## 4 - Expand aframe with components
 
-- You can find many components written by others at the [A-Frame registry](https://aframe.io/aframe-registry/) or on [NPM](<https://www.npmjs.com/search?q=keywords:aframe-component>)
+- You can find many components written by others at the [A-Frame registry](https://aframe.io/aframe-registry/) or on [NPM](https://www.npmjs.com/search?q=keywords:aframe-component)
 - make the text camera-facing using the `look-at` component, use link from unpkg
 
 ##### Exercise 
@@ -181,13 +181,13 @@ _These are the instructor notes for the workshop. They also contain useful links
 ##### Help
 
 - `04-components.html`
-- [docs for entitiy component system](<https://aframe.io/docs/0.9.0/introduction/entity-component-system.html>)
-- [docs for component](https://aframe.io/docs/0.9.0/core/component.html)
-- [The A-Frame registry](<https://aframe.io/aframe-registry/)>)
-- [A-Frame Extras](<https://github.com/donmccurdy/aframe-extras>) has lost of useful components, e.g., for different types of interaction
-- [NPM](<https://www.npmjs.com/search?q=keywords:aframe-component>) -  a good place to find components
-- [the physics system component](<https://github.com/donmccurdy/aframe-physics-system>) [(examples)](https://glitch.com/~aframe-physics-examples)
-- [live demos for many components](<https://github.com/supermedium/superframe>)
+- [docs for entitiy component system](https://aframe.io/docs/1.0.0/introduction/entity-component-system.html)
+- [docs for component](https://aframe.io/docs/1.0.0/core/component.html)
+- [The A-Frame registry](https://aframe.io/aframe-registry/)
+- [A-Frame Extras](https://github.com/donmccurdy/aframe-extras) has lost of useful components, e.g., for different types of interaction
+- [NPM](https://www.npmjs.com/search?q=keywords:aframe-component) -  a good place to find components
+- [the physics system component](https://github.com/donmccurdy/aframe-physics-system) [(examples)](https://glitch.com/~aframe-physics-examples)
+- [live demos for many components](https://github.com/supermedium/superframe)
 
 -------------------------------------------------------------------------------
 
@@ -210,7 +210,7 @@ _These are the instructor notes for the workshop. They also contain useful links
 ##### Help
 
 - `05-animation.html`
-- [docs for animation](https://aframe.io/docs/0.9.0/components/animation.html)
+- [docs for animation](https://aframe.io/docs/1.0.0/components/animation.html)
 
 -------------------------------------------------------------------------------
 
@@ -239,12 +239,12 @@ _These are the instructor notes for the workshop. They also contain useful links
 ##### Help
 
 - `06-interactivity.html`
-- [docs for interaction](https://aframe.io/docs/0.9.0/introduction/interactions-and-controllers.html)
-- [docs for cursor component](https://aframe.io/docs/0.9.0/components/cursor.html)
-- [docs for sound primitive](https://aframe.io/docs/0.9.0/primitives/a-sound.html)
-- [docs for camera primitive](https://aframe.io/docs/0.9.0/primitives/a-camera.html)
-- [docs for writing your own component](https://aframe.io/docs/0.9.0/introduction/writing-a-component.html)
-- [docs for raycaster component](https://aframe.io/docs/0.9.0/components/raycaster.html)
+- [docs for interaction](https://aframe.io/docs/1.0.0/introduction/interactions-and-controllers.html)
+- [docs for cursor component](https://aframe.io/docs/1.0.0/components/cursor.html)
+- [docs for sound primitive](https://aframe.io/docs/1.0.0/primitives/a-sound.html)
+- [docs for camera primitive](https://aframe.io/docs/1.0.0/primitives/a-camera.html)
+- [docs for writing your own component](https://aframe.io/docs/1.0.0/introduction/writing-a-component.html)
+- [docs for raycaster component](https://aframe.io/docs/1.0.0/components/raycaster.html)
 
 -------------------------------------------------------------------------------
 
@@ -290,10 +290,10 @@ _These are the instructor notes for the workshop. They also contain useful links
 ##### Help
 
 - `07-ar.html`
-- [AR.js project page](<https://github.com/jeromeetienne/AR.js/>)
-- [using multiple markers](<https://aframe.io/blog/arjs/#how-to-handle-multiple-distinct-markers>)
-- [train and use custom markers](<https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html>) [(Instructions)](https://medium.com/arjs/how-to-create-your-own-marker-44becbec1105)
-- [using QR codes embedded in markers](<https://medium.com/arjs/ar-code-a-fast-path-to-augmented-reality-60e51be3cbdf>)
+- [AR.js project page](https://github.com/jeromeetienne/AR.js/)
+- [using multiple markers](https://aframe.io/blog/arjs/#how-to-handle-multiple-distinct-markers)
+- [train and use custom markers](https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html) [(Instructions)](https://medium.com/arjs/how-to-create-your-own-marker-44becbec1105)
+- [using QR codes embedded in markers](https://medium.com/arjs/ar-code-a-fast-path-to-augmented-reality-60e51be3cbdf)
 - [A good AR matrix marker generator](https://au.gmented.com/app/marker/marker.php)
 
 -------------------------------------------------------------------------------
