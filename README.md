@@ -36,6 +36,9 @@ _These are the instructor notes for the workshop. They also contain useful links
 
 ##### Exercise 
 
+- Make sure you have Firefox or Chrome on your computer.
+- Your phone should have Chrome or Firefox, too, if it's an Android. I don't know about iPhones.
+- Find a way to read QR codes with your phone. In some phones (Android 8 and above) the camera app is able to do that automatically ([depending on the settings](https://blog.beaconstac.com/2019/03/how-to-scan-qr-codes-with-android-phones/#how-to-scan-qr-codes-without-app)). If yours doesn't find a suitable app and install it.
 - Create account at repl.it, fork the [project template](https://repl.it/@Teebusch/arworkshop), change the name. Reload the page once (Press <kbd>F5</kbd>).
 - Enter your project URL in the [Google sheet](https://docs.google.com/spreadsheets/d/1CForyLlUKzzmZNsQG0JXaGE289IyUQnhjvO8tkS7vmw/edit?usp=sharing).
 - Open `index.html`, write your code in here.
@@ -82,6 +85,7 @@ _These are the instructor notes for the workshop. They also contain useful links
 - What are A-frame primitives?
 - make and modify primitives
   - example: box, sphere, plane, ...
+  - by default, we don't see the primitives! Why? Because we are standing in them. We need to change their position (or the camera position).
   - see [documentation](https://aframe.io/docs/1.0.0/introduction/html-and-primitives.html) for all primitives
   - change position, rotation, scale with `position="x y z"` `rotation="x y z"` `scale="x y z"`
   - understanding the A-Frame xzy coordinate system
@@ -279,6 +283,7 @@ _These are the instructor notes for the workshop. They also contain useful links
 ##### Instructor
 
 - make sure everyone has at least the Hiro AR markers (see pdfs in `ar-markers/` directory)
+- make sure everyone has a QR code that leads to their personal repl. (ideally, a combined [AR + QR marker](https://jeromeetienne.github.io/AR.js/three.js/examples/arcode.html))
 
 ##### Exercise
 
